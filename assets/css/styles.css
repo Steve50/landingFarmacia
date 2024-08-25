@@ -50,6 +50,16 @@ body{
     transform: scale(1.5);
     z-index: 10;
 }
+
+#rightInfo{
+    color: white;
+}
+#rightInfo h1{
+    font-size: 70px;
+}
+#farmaC{
+    width: 100%;
+}
 .container-fluid a{
     color: white;
 }
