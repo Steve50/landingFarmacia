@@ -50,7 +50,39 @@ body{
     transform: scale(1.5);
     z-index: 10;
 }
-
+#contactUs {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    border-radius: 5px; /* Ajusta el border-radius si es necesario */
+    text-decoration: none;
+    color: white;/* Ajusta el color de fondo si es necesario */
+}
+#logoTrans{
+    width: 30%;
+}
+#contact{
+    padding-top: 20px;
+    display: grid;
+	grid-template-columns: repeat(4, auto);
+}
+#contact i{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#contact h4{
+    color: antiquewhite;
+}
+#contact a{
+    text-decoration: none;
+    color: white;
+}
+#contactUs i {
+    margin-left: 8px; /* Espacio entre el texto y el icono */
+}
 #rightInfo{
     color: white;
 }
@@ -69,7 +101,7 @@ body{
 footer{
     background: black;
     text-align: center;
-    height: 50px;
+    height: auto;
     line-height: 50px;
 }
 @media screen and (max-width: 1250px) {
@@ -129,6 +161,34 @@ footer{
         transform: scale(1.5);
         z-index: 10;
     }
+    #contactUs {
+        display: flex;
+        align-items: center; /* Centra verticalmente el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        text-align: center;
+        padding: 10px 20px; /* Ajusta el padding según sea necesario */
+        border-radius: 5px; /* Ajusta el border-radius si es necesario */
+        text-decoration: none;
+        color: white;/* Ajusta el color de fondo si es necesario */
+    }
+    #logoTrans{
+        width: 30%;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+    #contact i{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #contact h4{
+        color: antiquewhite;
+    }
+    #contactUs i {
+        margin-left: 8px; /* Espacio entre el texto y el icono */
+    }
     .container-fluid a{
         color: white;
     }
@@ -138,7 +198,7 @@ footer{
     footer{
         background: black;
         text-align: center;
-        height: 50px;
+        height: auto;
         line-height: 50px;
     }
 }
@@ -199,6 +259,35 @@ footer{
         transform: scale(1.5);
         z-index: 10;
     }
+    #contactUs {
+        display: flex;
+        align-items: center; /* Centra verticalmente el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        text-align: center;
+        padding: 10px 20px; /* Ajusta el padding según sea necesario */
+        border-radius: 5px; /* Ajusta el border-radius si es necesario */
+        text-decoration: none;
+        color: white;/* Ajusta el color de fondo si es necesario */
+    }
+    #logoTrans{
+        width: 30%;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    #contact i{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #contactUs i {
+        margin-left: 8px; /* Espacio entre el texto y el icono */
+    }
+    #contact h4{
+        color: antiquewhite;
+        margin-top: 20px;
+    }
     .container-fluid a{
         color: white;
     }
@@ -208,7 +297,7 @@ footer{
     footer{
         background: black;
         text-align: center;
-        height: 50px;
+        height: auto;
         line-height: 50px;
     }
 }
@@ -269,6 +358,35 @@ footer{
         height: 40px;
         color: black;
     }
+    #contactUs {
+        display: flex;
+        align-items: center; /* Centra verticalmente el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        text-align: center;
+        padding: 10px 20px; /* Ajusta el padding según sea necesario */
+        border-radius: 5px; /* Ajusta el border-radius si es necesario */
+        text-decoration: none;
+        color: white;/* Ajusta el color de fondo si es necesario */
+    }
+    #logoTrans{
+        width: 30%;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    #contact i{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #contactUs i {
+        margin-left: 8px; /* Espacio entre el texto y el icono */
+    }
+    #contact h4{
+        color: antiquewhite;
+        margin-top: 20px;
+    }
     .container-fluid a{
         color: white;
     }
@@ -278,7 +396,7 @@ footer{
     footer{
         background: black;
         text-align: center;
-        height: 50px;
+        height: auto;
         line-height: 50px;
     }
 }
@@ -339,6 +457,35 @@ footer{
         height: 40px;
         color: black;
     }
+    #contactUs {
+        display: flex;
+        align-items: center; /* Centra verticalmente el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        text-align: center;
+        padding: 10px 20px; /* Ajusta el padding según sea necesario */
+        border-radius: 5px; /* Ajusta el border-radius si es necesario */
+        text-decoration: none;
+        color: white;/* Ajusta el color de fondo si es necesario */
+    }
+    #logoTrans{
+        width: 30%;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    #contact i{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #contactUs i {
+        margin-left: 8px; /* Espacio entre el texto y el icono */
+    }
+    #contact h4{
+        color: antiquewhite;
+        margin-top: 20px;
+    }
     .container-fluid a{
         color: white;
     }
@@ -348,7 +495,7 @@ footer{
     footer{
         background: black;
         text-align: center;
-        height: 50px;
+        height: auto;
         line-height: 50px;
     }
 }
@@ -409,6 +556,35 @@ footer{
         height: 40px;
         color: black;
     }
+    #contactUs {
+        display: flex;
+        align-items: center; /* Centra verticalmente el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        text-align: center;
+        padding: 10px 20px; /* Ajusta el padding según sea necesario */
+        border-radius: 5px; /* Ajusta el border-radius si es necesario */
+        text-decoration: none;
+        color: white;/* Ajusta el color de fondo si es necesario */
+    }
+    #logoTrans{
+        width: 30%;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    #contact i{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #contactUs i {
+        margin-left: 8px; /* Espacio entre el texto y el icono */
+    }
+    #contact h4{
+        color: antiquewhite;
+        margin-top: 20px;
+    }
     .container-fluid a{
         color: white;
     }
@@ -418,7 +594,7 @@ footer{
     footer{
         background: black;
         text-align: center;
-        height: 50px;
+        height: auto;
         line-height: 50px;
     }
 }
@@ -479,6 +655,35 @@ footer{
         height: 40px;
         color: black;
     }
+    #contactUs {
+        display: flex;
+        align-items: center; /* Centra verticalmente el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        text-align: center;
+        padding: 10px 20px; /* Ajusta el padding según sea necesario */
+        border-radius: 5px; /* Ajusta el border-radius si es necesario */
+        text-decoration: none;
+        color: white;/* Ajusta el color de fondo si es necesario */
+    }
+    #logoTrans{
+        width: 30%;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+    #contact i{
+        color: white;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #contactUs i {
+        margin-left: 8px; /* Espacio entre el texto y el icono */
+    }
+    #contact h4{
+        color: antiquewhite;
+        margin-top: 20px;
+    }
     .container-fluid a{
         color: white;
     }
@@ -488,7 +693,7 @@ footer{
     footer{
         background: black;
         text-align: center;
-        height: 50px;
+        height: auto;
         line-height: 50px;
     }
 }
